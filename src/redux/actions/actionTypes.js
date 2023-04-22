@@ -1,0 +1,10 @@
+// POSTS
+export const GET_POSTS_SUCCESS = 'GET_POSTS_SUCCESS';
+
+
+// Comments
+export const GET_COMMENTS_SUCCESS = 'GET_COMMENTS_SUCCESS';
+
+
+// Categories
+export const GET_CATEGORIES_SUCCESS = 'GET_CATEGORIES_SUCCESS';
