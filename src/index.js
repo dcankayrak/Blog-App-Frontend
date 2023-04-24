@@ -9,6 +9,7 @@ import configureStore from './redux/reducers/configureStore';
 import { BrowserRouter } from 'react-router-dom';
 // import './assets/personal-blog-template/css/style.css';
 import './assets/css/style.css';
+import './assets/css/admin.css';
 
 const store = configureStore();
 

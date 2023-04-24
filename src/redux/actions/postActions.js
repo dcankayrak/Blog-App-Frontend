@@ -1,5 +1,12 @@
 import * as actionTypes from './actionTypes';
 
+export function changeCurrentPost(post){
+    return{
+        type:actionTypes.CHANGE_CURRENT_POST,
+        payload:post
+    }
+}
+
 export function getPostsSuccess(posts){
     return{
         type:actionTypes.GET_POSTS_SUCCESS,

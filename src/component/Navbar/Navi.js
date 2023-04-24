@@ -12,10 +12,13 @@ export default class Navi extends Component {
             <div>
                 <div class='navbar'>
                     <a class='navbar-logo-site'>
-                        <img class='navbar-logo' src={logo} alt='logo' />
+                        <div class='navbar-logo-section'>
+                            <img class='navbar-logo' src={logo} alt='logo' />
                         <a href='https://www.linkedin.com/in/danyal-can-kayrak/'>
                             <img class='navbar-hire-me' src={hireMe} alt='hire' />
                         </a>
+                        </div>
+                        
                     </a>
 
 
@@ -23,12 +26,13 @@ export default class Navi extends Component {
                         <li>
                             <Link class='link' to='/'>HOME</Link>
                         </li>
-                        <li>BLOG</li>
-                        <li>CV</li>
-                        <li>STORE</li>
-                        <li>FREELANCE</li>
-                        <li>ABOUT ME</li>
-                        <li>CONTACT</li>
+                        <li>
+                            <Link class='link' to='#'>BLOG</Link></li>
+                        <li><Link class='link' to='#'>CV</Link></li>
+                        <li><Link class='link' to='#'>STORE</Link></li>
+                        <li><Link class='link' to='#'>FREELANCE</Link></li>
+                        <li><Link class='link' to='#'>ABOUT ME</Link></li>
+                        <li><Link class='link' to='#'>CONTACT</Link></li>
                         <li class='theme'>
                             <button class='theme-button' onClick={() => {this.changeTheme()}}>
                                 <img class='theme' id="icon" src={moon}></img>

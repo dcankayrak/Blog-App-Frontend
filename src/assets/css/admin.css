@@ -1,0 +1,17 @@
+.wrapper {
+    height: 5rem;
+}
+
+.menu-container>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-container>ul>li {
+    margin: 1.5rem;
+}
+
+.menu-item {
+    list-style: none;
+}

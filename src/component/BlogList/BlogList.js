@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux';
 import * as postActions from '../../redux/actions/postActions';
 import * as categoryActions from '../../redux/actions/categoryActions';
+import currentPostReducer from '../../redux/reducers/currentPostReducer';
 
 class BlogList extends Component {
 
@@ -47,8 +48,8 @@ class BlogList extends Component {
                             <img class='blog-item-image' src={post.image}/>
                             <p class='blog-item-date'>{post.uploadDate}</p>
                             <h5 class='blog-item-title'>{post.title}</h5>
-                            <p class='blog-item-description'>{post.text}</p>
-                            <Link class='blog-item-read-more' to={"/"+post.id}>Read More</Link>
+                            <p class='blog-item-description'>{post.text.substring(0,100)+"..."}</p>
+                            <Link class='blog-item-read-more' onClick={()=>this.props.actions.changeCurrentPost(post)} to={"/"+post.id}>Read More</Link>
                         </div>
                     ))
                 }
@@ -63,6 +64,7 @@ function mapStateToProps(state){
     return {
         "posts":state.postReducer,
         "categories":state.categoryReducer,
+        "currentPost":state.currentPostReducer
     }
 }
 
@@ -71,6 +73,7 @@ function mapDispatchToProps(dispatch){
         "actions":{
             "getPosts":bindActionCreators(postActions.getPosts,dispatch),
             "getCategories":bindActionCreators(categoryActions.getCategories,dispatch),
+            "changeCurrentPost":bindActionCreators(postActions.changeCurrentPost,dispatch)
         }
     }
 }

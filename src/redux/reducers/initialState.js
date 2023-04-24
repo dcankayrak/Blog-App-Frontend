@@ -1,5 +1,7 @@
 export default{
     posts:[],
     comments:[],
-    categories:[]
+    categories:[],
+    newComment:{},
+    currentPost:{}
 }

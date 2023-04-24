@@ -10,6 +10,12 @@ export default class AboutMe extends Component {
         <p class='about-me-desc'>Merhabalar, ben Danyal Can KAYRAK. Fırat Üniversitesi Yazılım Mühendisliği 2.Sınıf öğrencisiyim.
             Öğrenmeye son derece meraklı, probleme değil çözüme odaklı bir bireyim.
         </p>
+        <br></br>
+        <div class='seperate'>
+          <p>*</p>
+          <p>*</p>
+          <p>*</p>
+        </div>
       </div>
     )
   }

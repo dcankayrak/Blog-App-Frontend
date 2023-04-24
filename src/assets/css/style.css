@@ -48,6 +48,23 @@
     background-color: var(--primary-color);
 }
 
+input {
+    margin: 1rem;
+    width: 30%;
+    align-items: center;
+    height: 3rem;
+    border-radius: 5px;
+    border-color: var(--third-color);
+}
+
+textarea {
+    margin: 1rem;
+    width: 100%;
+    height: 5rem;
+    border-radius: 5px;
+    border-color: var(--third-color);
+}
+
 .link {
     color: var(--secondary-color);
 }
@@ -79,8 +96,13 @@ body {
     padding-left: 1.5rem;
 }
 
+.navbar-logo-section{
+    align-items: center;
+}
+
 .navbar-logo {
-    height: 32px;
+    height: 48px;
+    padding-bottom: 0.7rem;
 }
 
 .navbar-links {
@@ -274,7 +296,33 @@ blog-category-link a:hover {
     padding: 5rem;
 }
 
-.blog-post-back-button {
+.blog-post-comment{
+    text-align: left;
+}
+
+.blog-post-comment>p {
+    margin-left: 4.5rem;
+}
+
+.blog-post-comment>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.blog-post-comment>div>p {
+    margin-top: 1rem;
+}
+
+
+
+.user-icon {
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.button-01 {
     text-decoration: none;
     color :white;
     padding: 15px;
@@ -283,12 +331,12 @@ blog-category-link a:hover {
     border-radius: 10px;
 }
 
-.blog-post-back-button:hover {
+.button-01:hover {
     text-decoration: none;
     color : var(--third-color);
     padding: 15px;
     border: 1px solid var(--third-color);
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 10px;
 }
 
@@ -320,4 +368,32 @@ blog-category-link a:hover {
     margin-bottom: 2rem;
 }
 
+.seperate {
+    display: flex;
+    flex-direction: row;
+    margin: 0 35rem;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+}
+
 /* Footer */
+
+.ds-button {
+    color: var(--primary-color);
+    border: 1px solid var(--third-color);
+    background-color: var(--third-color);
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.footer-p {
+    margin-bottom: 3rem;
+}
+
+.footer-link {
+    color: var(--third-color);
+}
