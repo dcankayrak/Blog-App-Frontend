@@ -1,71 +1,30 @@
-# Getting Started with Create React App
+# Kişisel Blog Sitesi - Frontend
+🎉 Artık her yazılım geliştirici / yazılım mühendisinin kendine özel bir blog sitesi olacak.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🎯 Bu projemdeki asıl amacım uzunca bir süredir backend alanında kendimi geliştirirken hep front taraflarında dönen olayları merakım üzerine reactı öğrenmem, html ve css temellerimi ve react, javascript bilgilerimi üst düzeye çıkartırken güzel bir deneyim elde etmekti. Ve böyle de oldu :)
 
-## Available Scripts
+❗ Son 1 aydır azıcık da olsa front ile ilgilenerek React, React-Redux, Javascript, Html, CSS kullanılarak yapılmıştır. Projemi linkedIn üzerindeki videodan canlı halini görebilirsiniz. Projeyi geliştirirken front kısmında çok yetkin olmadığım için birçok problem yaşadım fakat hepsinin üstesinden elimden geldikçe geldim. Bu proje sayesinde kendim ve geleceğim ve kariyerim için Fullstack bir geliştiri olma yolunda ilk adımımı atmış oldum. Yapımının her anında olmasa da genelinde eğlendim diyebilirim. Çünkü gerçekten bazı hataları çözmek çok can sıkıcıydı :)
 
-In the project directory, you can run:
+### Projenin Kurulumu
+---
+Projemizin bilgisayarda çalışması için proje dosyalarını indirebilirsiniz. İndirdikten sonra istediğiniz bir klasöre göre konumlandırınız. Sonrasında ise bir IDE ile açabilirsiniz. Ben tercihimi Visual Studio'dan yana kullandım. Proje klasörünü ide ile açtıktan sonra tek yapmanız gereken 'npm start' konumu ile projeyi backend ile eşzamanlı olarak ayağa kaldırmak.
 
-### `npm start`
+Yukarıdaki aşamaları tamamladıysanız açılan yerel ağ üzerinizde açılan sunucuda 'localhost:3000' portuna giderek siteyi canlıda da görüntülebilirsiniz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Projemizden alıntılar
+---
+![5](https://user-images.githubusercontent.com/94143272/234065254-d5d7eb29-a660-42ed-affa-a283b1dfc597.png)
+![1](https://user-images.githubusercontent.com/94143272/234065122-e88111c9-7841-4ab2-993c-35e780f349a6.png)
+![2](https://user-images.githubusercontent.com/94143272/234065205-1a1ce487-2332-4f32-92dc-73bda0cf6abb.png)
+![3](https://user-images.githubusercontent.com/94143272/234065237-c86ec5cf-8612-4070-9eb4-bcd3642a30bf.png)
+![4](https://user-images.githubusercontent.com/94143272/234065247-d02826be-634a-4d59-98b0-6c8b9ce53207.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ☎️ İletişim
+---
+[Projenin Backend Linki](https://github.com/DCanKayrak/Resume-Website)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Blog-App-Frontend
+[Github Hesabım](https://github.com/DCanKayrak)
+[LinkedIn Hesabım](https://www.linkedin.com/in/danyal-can-kayrak/)
+[Mail Adresim](dancankan@gmail.com)
